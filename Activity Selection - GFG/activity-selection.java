@@ -48,7 +48,7 @@ class Solution
         // add your code here
         int activities[][] = new int[start.length][3];
         for (int i = 0; i < start.length; i++) {
-            activities[i][0] = i+1;
+            activities[i][0] = 0;
             activities[i][1] = start[i];
             activities[i][2] = end[i];
         }
